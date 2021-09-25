@@ -168,7 +168,7 @@ bot.on("message", async(lol) => {
                 break
    // Case Dimulai dari sini
    case 'play'
-   if (!isUser) return  reply(mess.ser)
+   if (!isUser) return await reply(mess.ser)
    if (!isBann) return reply('banned')
    if (!query) return reply('Input teks')
    try {
