@@ -1,0 +1,12 @@
+Tutor pasang 
+
+TERMUX
+cd /sdcard/namafile
+bash install.sh
+npm start
+
+WINDOWS, RDP, VPS
+npm i
+npm start
+
+faiz
